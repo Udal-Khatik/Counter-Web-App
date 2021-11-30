@@ -33,7 +33,7 @@ const Counter = ({ count, setCount }) => {
         <input
           style={{
             width: "30px",
-            padding: "23px 17px",
+            padding: "22px 17px 25px 17px",
           }}
           className="container inputEl"
           value={count}
