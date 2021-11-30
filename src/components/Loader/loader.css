@@ -1,0 +1,60 @@
+.outerContainerOfLoader {
+  padding-left: 3;
+  position: relative;
+  margin-top: 15px;
+}
+.loader {
+  height: 16;
+  width: 16;
+  position: absolute;
+  left: 37px;
+  animation: rotate 3.2s linear infinite;
+}
+@keyframes rotate {
+  30% {
+    transform: rotate(220deg);
+  }
+  40% {
+    transform: rotate(450deg);
+  }
+  75% {
+    transform: rotate(720deg);
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+}
+.loader:nth-child(1) {
+  animation-delay: 0.15s;
+}
+.loader:nth-child(2) {
+  animation-delay: 0.35s;
+}
+.loader:nth-child(3) {
+  animation-delay: 0.45s;
+}
+.loader:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.loader:nth-child(5) {
+  animation-delay: 0.75s;
+}
+.loader:nth-child(6) {
+  animation-delay: 0.9s;
+}
+.container .wrapper {
+  position: absolute;
+  top: 265px;
+}
+.loader .element {
+  height: 2px;
+  width: 2px;
+  background: #000000;
+  border-radius: 150px;
+  position: relative;
+  top: 5px;
+}

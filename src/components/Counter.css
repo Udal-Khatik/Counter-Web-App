@@ -1,0 +1,40 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 200;
+  height: 56;
+  border-color: #b24242;
+  padding: 23px;
+}
+.leftButton {
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-width: 2px 0 2px 2px;
+  border-bottom-left-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #b24242;
+}
+.rightButton {
+  border-top-right-radius: 8px;
+  border-width: 2px 2px 2px 0;
+  background-color: #b24242;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom-right-radius: 8px;
+}
+.inputEl {
+  border-color: #b34040;
+  border-width: 2px 0px 2px 2px;
+  background-color: #fbe8e8;
+  text-align: center;
+  padding: 23px 17px;
+  font-weight: 700;
+  color: #b24242;
+}
